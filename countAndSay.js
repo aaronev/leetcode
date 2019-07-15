@@ -1,9 +1,15 @@
 https://leetcode.com/problems/count-and-say/
 
 var countAndSay = function(n) {
-    var str = ''
-    for (i = 0; i < n; i++) {
-        str += 1
-    }  
-    return str;
+    var count = 1;
+    var say = '';
+    i = 0
+    while (i < n) {
+        
+        say = count
+        
+        i++
+    }
+    
+    return say
 };
